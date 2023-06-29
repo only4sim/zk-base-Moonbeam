@@ -26,6 +26,12 @@ To enhance privacy and confidentiality in zero-knowledge machine learning, we ha
 ### TODO: Streamlined Perceptron Library for Neural Network Builders
 Recognizing the significance of neural networks in machine learning, our project introduces a streamlined Perceptron library. This library simplifies the integration of Perceptron, a fundamental building block in neural networks, into Moonbeam. By providing developers with easy-to-use tools, we empower them to construct and train advanced neural networks, harnessing the potential of zero-knowledge methodologies to preserve privacy and confidentiality.
 
+
+### Summary
 Our project marks a good milestone in the advancement of zero-knowledge computation on Moonbeam. By combining the power of Zokrates with essential libraries, we offer developers the means to build privacy-preserving and secure applications. Whether it's overcoming verification challenges, leveraging Pedersen commitments for data masking, or utilizing the Perceptron library for neural network builders, our project sets the stage for the future of zero-knowledge computation on the Moonbeam blockchain.
+
+### Demo
+- [Moonbeam zero-knowlege proof template](https://youtu.be/lb7_94rqK74)
+- [Pedersen Commitment Library](https://youtu.be/8kZHOQtp1Ck)
 
 Join us on this transformative journey as we empower developers to unlock the full potential of zero-knowledge proof, fostering privacy, security, and trust on the Moonbeam network. 
