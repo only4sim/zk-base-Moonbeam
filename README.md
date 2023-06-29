@@ -34,4 +34,12 @@ Our project marks a good milestone in the advancement of zero-knowledge computat
 - [Moonbeam zero-knowlege proof template](https://youtu.be/lb7_94rqK74)
 - [Pedersen Commitment Library](https://youtu.be/8kZHOQtp1Ck)
 
+### Bounty
+![Successful batch verification](/Successful%20batch%20verification.png)
+We also leverage the batch precompile feature provided by the Moonbeam. It helps users to carry on batch verification, which can improve the verification efficiency greatly. Please check our demo:
+- [Batch Precompile Verification](https://www.youtube.com/watch?v=7NeR2L_ueW0)
+
+Since it takes some time for transactions to be loaded into the block explorer, we show a previously successful batch verification in the video along with a screenshot of the transaction after the explorer has been updated. You can see that the batch transaction was successfully executed as an internal transaction.
+
+
 Join us on this transformative journey as we empower developers to unlock the full potential of zero-knowledge proof, fostering privacy, security, and trust on the Moonbeam network. 
