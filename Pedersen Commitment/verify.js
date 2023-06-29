@@ -23,7 +23,7 @@ const provider = new ethers.providers.JsonRpcProvider(providerRPC.moonbase.rpc, 
 const account_from = {
   privateKey: '091e67bea524ca528375b55da511a6aedd6926b128994587866c136cab241cb9',
 };
-const contractAddress = '0x6BADaB931f60efe738739c97F03b6a5a0529D0A8';
+const contractAddress = '0x0C1f5F184704402E45b886153E141174e00EAA68';
 const _value = 3;
 
 const proof_source = fs.readFileSync('proof.json', 'utf8');
@@ -58,7 +58,7 @@ const increment = async () => {
     }
   }
 
-  const createReceipt =  await contract.verifyTx(inputStruct, [ethers.BigNumber.from(proof.inputs[0])]);
+  const createReceipt =  await contract.verifyTx(inputStruct, [ethers.BigNumber.from(proof.inputs[0]), ethers.BigNumber.from(proof.inputs[1])]);
   // const createReceipt =  await contract.populateTransaction.verifyTx(inputStruct, [ethers.BigNumber.from(proof.inputs[0])]);
 
   //const createReceipt = iface.encodeFunctionData("verifyTx",[proof.proof.a, proof.proof.b, proof.proof.c, proof.inputs]);
